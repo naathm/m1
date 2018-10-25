@@ -1,0 +1,24 @@
+<?xml version = "1.0"?>
+
+<config>
+   <global>
+     <modules>
+        <Academia_Aula03Exercicio01>
+          <version>1.0.0</version>
+        </Academia_Aula03Exercicio01>
+     </modules>
+    </global> 
+
+    <frontend>
+       <routers>
+          <Aula03Exercicio01>
+                <use>standard</use>
+                <args>
+                    <modules>Academia_Aula03Exercicio01</modules>
+                    <frontName>aula03exercicio01</frontName>
+                </args>
+           </Aula03Exercicio01>
+        </routers>
+    </frontend>  
+               
+</config>             

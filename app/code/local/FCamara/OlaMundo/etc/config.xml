@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+   <global>
+       <modules>
+          <FCamara_OlaMundo>
+            <version>1.0.0</version>
+          </FCamara_OlaMundo>
+        </modules> 
+
+
+        <blocks>
+         <FCamara_OlaMundo> 
+         <class>FCamara_OlaMundo_Block</class>
+         </blocks>
+    </global>
+
+
+    <frontend>
+         <routers>
+            <tagolamundo>
+              <use>standard</use>      
+              <args>
+                  <module>FCamara_OlaMundo</module>
+                  <frontName>fcamaraolamundo</frontName>
+             </args>
+             </tagolamundo>
+          </routers>    
+    </frontend>      
+</config >    
+

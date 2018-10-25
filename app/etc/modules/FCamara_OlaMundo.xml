@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+       <modules>
+         <FCamara_OlaMundo>
+             <active>true</active>
+             <codepool>local</codepool>
+        </FCamara_OlaMundo>     
+     </modules>
+</config>
