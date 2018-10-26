@@ -1,23 +1,28 @@
-<?xml version = "1.0"?>
-
+<?xml version="1.0"?>
 <config>
-   <global>
-     <modules>
-        <Academia_Aula03Exercicio01>
-          <version>1.0.0</version>
-        </Academia_Aula03Exercicio01>
-     </modules>
+    <global>
+        <modules>
+            <Academia_Aula03Exercicio01>
+                <version>1.0.0</version>
+            </Academia_Aula03Exercicio01>
+        </modules>
+
+        <blocks>
+            <academia_aula03exercicio01>
+                <class>Academia_Aula03Exercicio01_Block</class>
+            </academia_aula03exercicio01>
+        </blocks>
     </global> 
 
     <frontend>
-       <routers>
-          <Aula03Exercicio01>
+        <routers>
+            <aula03exercicio01>
                 <use>standard</use>
                 <args>
-                    <modules>Academia_Aula03Exercicio01</modules>
+                    <module>Academia_Aula03Exercicio01</module>
                     <frontName>aula03exercicio01</frontName>
                 </args>
-           </Aula03Exercicio01>
+            </aula03exercicio01>
         </routers>
     </frontend>  
                

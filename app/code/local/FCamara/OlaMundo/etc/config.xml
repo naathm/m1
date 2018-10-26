@@ -7,24 +7,23 @@
           </FCamara_OlaMundo>
         </modules> 
 
-
         <blocks>
-         <FCamara_OlaMundo> 
-         <class>FCamara_OlaMundo_Block</class>
-         </blocks>
+          <fcamara_olamundo> 
+            <class>FCamara_OlaMundo_Block</class>
+         </fcamara_olamundo>
+        </blocks>
     </global>
 
 
     <frontend>
-         <routers>
-            <tagolamundo>
+        <routers>
+            <olamundo>
               <use>standard</use>      
               <args>
                   <module>FCamara_OlaMundo</module>
-                  <frontName>fcamaraolamundo</frontName>
+                  <frontName>olamundo</frontName>
              </args>
-             </tagolamundo>
-          </routers>    
+            </olamundo>
+        </routers>    
     </frontend>      
 </config >    
-

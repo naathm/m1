@@ -3,7 +3,8 @@
        <modules>
          <FCamara_OlaMundo>
              <active>true</active>
-             <codepool>local</codepool>
+             <codePool>local</codePool>
         </FCamara_OlaMundo>     
      </modules>
 </config>
+
