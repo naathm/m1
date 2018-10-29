@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <global>
+        <modules>
+            <Treino_Parte1> 
+                <version>1.0.0</version>
+            </Treino_Parte1>   
+        </modules>     
+
+        <blocks>
+            <treino_parte1>
+                <class>Treino_Parte1_Block</class>
+            </treino_parte1> 
+        </blocks>                   
+    </global>
+
+    <frontend>
+        <routers>
+            <parte1> 
+                <use>standard</use>
+                <args>
+                    <module>Treino_Parte1</module> 
+                    <frontName>parte1</frontName>
+                </args>
+            </parte1>
+        </routers>
+    </frontend>    
+
+</config>
